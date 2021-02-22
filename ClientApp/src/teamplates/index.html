@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <span class="col-12 title_section">Current</span>
+        <div class="col-12 d-flex px-md-4">
+            <div class="col-4 pl-0 title_tables">Date</div>
+            <div class="col-6 pl-0 title_tables">Name</div>
+            <div class="col-2 pl-0 title_tables">Action</div>
+        </div>
+        <div class="accordion col-12 p-md-0" id="accordionCurrent">
+            <div class="card card-top border-0">
+                <div class="card-header p-0" id="headingOne">
+                    <div class="btn btn-block col-12 d-flex px-md-4 text-left" type="button" data-toggle="collapse"
+                         data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div class="col-12 d-flex p-0">
+                            <span class="col-4 p-0">05.08.2020</span>
+                            <span class="col-6 p-0">New tutorial</span>
+                            <span class="col-2 p-0">
+                                <a href="#"><img src="svg/info.svg"></a>
+                                <a href="#"><img src="svg/download.svg"></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                     data-parent="#accordionCurrent">
+                    <div class="card-body d-flex">
+                        <span class="col-4 p-0">
+                            <p class="mb-0">Started 5 days ago</p>
+                            <p class="mb-0">Players: 2787</p>
+                        </span>
+                        <span class="col-6 p-0">
+                            <p class="mb-0">Impressions <span class="color-opacity">not ready</span></p>
+                            <p class="mb-0"><span class="color-danger">-1.17</span> — <span
+                                    class="color-success">0.14</span></p>
+                        </span>
+                        <span class="col-2 p-0">
+                            <p class="mb-0">In-Apps <span class="color-success">success</span></p>
+                            <p class="mb-0"><span class="color-success">$0.41</span> — <span
+                                    class="color-success">$1.12</span></p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-action float-right my-3">Add new experiment</button>
+        </div>
+
+        <span class="col-12 title_section mt-2">Other</span>
+        <div class="col-12 d-flex px-md-4">
+            <div class="col-4 pl-0 title_tables">Date</div>
+            <div class="col-6 pl-0 title_tables">Name</div>
+            <div class="col-2 pl-0 title_tables">Action</div>
+        </div>
+        <div class="accordion col-12 p-md-0" id="accordionTwoCurrent">
+            <div class="card card-bottom mb-1 border-success">
+                <div class="card-header p-0" id="heading2">
+                    <div class="btn btn-block col-12 d-flex px-md-4 text-left" type="button" data-toggle="collapse"
+                         data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                        <div class="col-12 d-flex p-0">
+                            <span class="col-4 p-0">05.08.2020</span>
+                            <span class="col-6 p-0">New tutorial</span>
+                            <span class="col-2 p-0">
+                                <a href="#"><img src="svg/info.svg"></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionTwoCurrent">
+                    <div class="card-body d-flex">
+                        <span class="col-4 p-0">
+                            <p class="mb-0">Started 5 days ago</p>
+                            <p class="mb-0">Players: 2787</p>
+                        </span>
+                        <span class="col-6 p-0">
+                            <p class="mb-0">Impressions <span class="color-opacity">not ready</span></p>
+                            <p class="mb-0"><span class="color-danger">-1.17</span> — <span
+                                    class="color-success">0.14</span></p>
+                        </span>
+                        <span class="col-2 p-0">
+                            <p class="mb-0">In-Apps <span class="color-success">success</span></p>
+                            <p class="mb-0"><span class="color-success">$0.41</span> — <span
+                                    class="color-success">$1.12</span></p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-bottom mb-1 border-danger">
+                <div class="card-header p-0" id="heading3">
+                    <div class="btn btn-block col-12 d-flex px-md-4 text-left" type="button" data-toggle="collapse"
+                         data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                        <div class="col-12 d-flex p-0">
+                            <span class="col-4 p-0">05.08.2020</span>
+                            <span class="col-6 p-0">New tutorial</span>
+                            <span class="col-2 p-0">
+                                <a href="#"><img src="svg/info.svg"></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionTwoCurrent">
+                    <div class="card-body d-flex">
+                        <span class="col-4 p-0">
+                            <p class="mb-0">Started 5 days ago</p>
+                            <p class="mb-0">Players: 2787</p>
+                        </span>
+                        <span class="col-6 p-0">
+                            <p class="mb-0">Impressions <span class="color-opacity">not ready</span></p>
+                            <p class="mb-0"><span class="color-danger">-1.17</span> — <span
+                                    class="color-success">0.14</span></p>
+                        </span>
+                        <span class="col-2 p-0">
+                            <p class="mb-0">In-Apps <span class="color-success">success</span></p>
+                            <p class="mb-0"><span class="color-success">$0.41</span> — <span
+                                    class="color-success">$1.12</span></p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-bottom mb-1 border-success">
+                <div class="card-header p-0" id="heading4">
+                    <div class="btn btn-block col-12 d-flex px-md-4 text-left" type="button" data-toggle="collapse"
+                         data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                        <div class="col-12 d-flex p-0">
+                            <span class="col-4 p-0">05.08.2020</span>
+                            <span class="col-6 p-0">New tutorial</span>
+                            <span class="col-2 p-0">
+                                <a href="#"><img src="svg/info.svg"></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionTwoCurrent">
+                    <div class="card-body d-flex">
+                        <span class="col-4 p-0">
+                            <p class="mb-0">Started 5 days ago</p>
+                            <p class="mb-0">Players: 2787</p>
+                        </span>
+                        <span class="col-6 p-0">
+                            <p class="mb-0">Impressions <span class="color-opacity">not ready</span></p>
+                            <p class="mb-0"><span class="color-danger">-1.17</span> — <span
+                                    class="color-success">0.14</span></p>
+                        </span>
+                        <span class="col-2 p-0">
+                            <p class="mb-0">In-Apps <span class="color-success">success</span></p>
+                            <p class="mb-0"><span class="color-success">$0.41</span> — <span
+                                    class="color-success">$1.12</span></p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-bottom mb-1 border-success">
+                <div class="card-header p-0" id="heading5">
+                    <div class="btn btn-block col-12 d-flex px-md-4 text-left" type="button" data-toggle="collapse"
+                         data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                        <div class="col-12 d-flex p-0">
+                            <span class="col-4 p-0">05.08.2020</span>
+                            <span class="col-6 p-0">New tutorial</span>
+                            <span class="col-2 p-0">
+                                <a href="#"><img src="svg/info.svg"></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionTwoCurrent">
+                    <div class="card-body d-flex">
+                        <span class="col-4 p-0">
+                            <p class="mb-0">Started 5 days ago</p>
+                            <p class="mb-0">Players: 2787</p>
+                        </span>
+                        <span class="col-6 p-0">
+                            <p class="mb-0">Impressions <span class="color-opacity">not ready</span></p>
+                            <p class="mb-0"><span class="color-danger">-1.17</span> — <span
+                                    class="color-success">0.14</span></p>
+                        </span>
+                        <span class="col-2 p-0">
+                            <p class="mb-0">In-Apps <span class="color-success">success</span></p>
+                            <p class="mb-0"><span class="color-success">$0.41</span> — <span
+                                    class="color-success">$1.12</span></p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
+</html>
